@@ -43,7 +43,7 @@ class CraftCodemirror extends Plugin
 
         Craft::info(
             Craft::t(
-                'craft-color-picker',
+                'craft-codemirror',
                 '{name} plugin loaded',
                 ['name' => $this->name]
             ),
