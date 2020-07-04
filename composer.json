@@ -2,7 +2,7 @@
     "name": "lewisjenkins/craft-codemirror",
     "description": "CodeMirror for Craft CMS.",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",
@@ -28,11 +28,11 @@
     },
     "autoload": {
         "psr-4": {
-          "lewisjenkins\\craftcolorpicker\\": "src/"
+          "lewisjenkins\\craftcolormirror\\": "src/"
         }
     },
     "extra": {
-        "name": "LJ Color Picker",
+        "name": "LJ Code Mirror",
         "handle": "craft-codemirror",
         "developer": "Lewis Jenkins",
         "developerUrl": "https://lj.io",
@@ -40,6 +40,6 @@
         "hasCpSection": false,
         "changelogUrl": "https://raw.githubusercontent.com/lewisjenkins/craft-codemirror/master/CHANGELOG.md",
         "documentationUrl": "https://github.com/lewisjenkins/craft-codemirror/blob/master/README.md",
-        "class": "lewisjenkins\\craftcolorpicker\\CraftColorPicker"
+        "class": "lewisjenkins\\craftcodemirror\\CraftCodemirror"
     }
 }
