@@ -23,7 +23,7 @@ showAlpha: true';
     
     public static function displayName(): string
     {
-        return Craft::t('craft-color-picker', 'LJ Color Picker');
+        return Craft::t('craft-codemirror', 'LJ CodeMirror');
     }
 
     public function getContentColumnType(): string
@@ -35,7 +35,7 @@ showAlpha: true';
     {
 	            //Craft::$app->getView()->registerAssetBundle(CodemirrorFieldAsset::class);
         return Craft::$app->getView()->renderTemplate(
-            'craft-color-picker/_components/fields/Codemirror_settings',
+            'craft-codemirror/_components/fields/Codemirror_settings',
             [
                 'field' => $this,
                 'img' => Craft::$app->assetManager->getPublishedUrl('@lewisjenkins/craftcodemirror/assetbundles/codemirrorfield/dist/img', true)
@@ -70,7 +70,7 @@ showAlpha: true';
         };
 
         return Craft::$app->getView()->renderTemplate(
-            'craft-color-picker/_components/fields/Codemirror_input',
+            'craft-codemirror/_components/fields/Codemirror_input',
             [
                 'name' => $this->handle,
                 'value' => $value,

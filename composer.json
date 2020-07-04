@@ -2,7 +2,7 @@
     "name": "lewisjenkins/craft-codemirror",
     "description": "CodeMirror for Craft CMS.",
     "type": "craft-plugin",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "keywords": [
         "craft",
         "cms",
@@ -32,7 +32,7 @@
         }
     },
     "extra": {
-        "name": "LJ Code Mirror",
+        "name": "LJ CodeMirror",
         "handle": "craft-codemirror",
         "developer": "Lewis Jenkins",
         "developerUrl": "https://lj.io",
