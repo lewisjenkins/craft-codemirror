@@ -2,19 +2,21 @@
     "name": "lewisjenkins/craft-codemirror",
     "description": "...",
     "type": "craft-plugin",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "keywords": [
         "craft",
         "cms",
         "craftcms",
         "craft-plugin",
-        "craft codemirror"
+        "craft codemirror",
+        "lj color picker"
     ],
     "support": {
-        "docs": "???",
-        "issues": "???"
+        "docs": "https://github.com/lewisjenkins/craft-codemirror/blob/master/README.md",
+        "issues": "https://github.com/lewisjenkins/craft-codemirror/issues",
+        "email": "lewis@lj.io"
     },
-    "license": "MIT",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Lewis Jenkins",
@@ -34,8 +36,8 @@
         "handle": "craft-codemirror",
         "developer": "Lewis Jenkins",
         "developerUrl": "https://lj.io",
-        "documentationUrl": "???",
-        "changelogUrl": "???",
+        "changelogUrl": "https://raw.githubusercontent.com/lewisjenkins/craft-codemirror/master/CHANGELOG.md",
+        "documentationUrl": "https://github.com/lewisjenkins/craft-codemirror/blob/master/README.md",
         "class": "lewisjenkins\\craftcodemirror\\CraftCodemirror"
     }
 }
