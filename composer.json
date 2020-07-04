@@ -1,6 +1,6 @@
 {
     "name": "lewisjenkins/craft-codemirror",
-    "description": "CodeMirror for Craft CMS.",
+    "description": "...",
     "type": "craft-plugin",
     "version": "1.0.4",
     "keywords": [
@@ -8,15 +8,13 @@
         "cms",
         "craftcms",
         "craft-plugin",
-        "craft codemirror",
-        "lj codemirror"
+        "craft codemirror"
     ],
     "support": {
-        "docs": "https://github.com/lewisjenkins/craft-codemirror/blob/master/README.md",
-        "issues": "https://github.com/lewisjenkins/craft-codemirror/issues",
-        "email": "lewis@lj.io"
+        "docs": "???",
+        "issues": "???"
     },
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Lewis Jenkins",
@@ -32,14 +30,12 @@
         }
     },
     "extra": {
-        "name": "LJ CodeMirror",
+        "name": "Craft Codemirror",
         "handle": "craft-codemirror",
         "developer": "Lewis Jenkins",
         "developerUrl": "https://lj.io",
-        "hasCpSettings": false,
-        "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/lewisjenkins/craft-codemirror/master/CHANGELOG.md",
-        "documentationUrl": "https://github.com/lewisjenkins/craft-codemirror/blob/master/README.md",
+        "documentationUrl": "???",
+        "changelogUrl": "???",
         "class": "lewisjenkins\\craftcodemirror\\CraftCodemirror"
     }
 }

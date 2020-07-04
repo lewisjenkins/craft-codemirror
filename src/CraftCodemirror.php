@@ -1,36 +1,69 @@
 <?php
+/**
+ * Craft Codemirror plugin for Craft CMS 3.x
+ *
+ * ...
+ *
+ * @link      https://lj.io
+ * @copyright Copyright (c) 2020 Lewis Jenkins
+ */
 
 namespace lewisjenkins\craftcodemirror;
 
-use lewisjenkins\craftcodemirror\fields\Codemirror as CodemirrorField;
 
 use Craft;
 use craft\base\Plugin;
 use craft\services\Plugins;
 use craft\events\PluginEvent;
-use craft\services\Fields;
-use craft\events\RegisterComponentTypesEvent;
 
 use yii\base\Event;
 
+/**
+ * Class CraftCodemirror
+ *
+ * @author    Lewis Jenkins
+ * @package   CraftCodemirror
+ * @since     1.0.4
+ *
+ */
 class CraftCodemirror extends Plugin
 {
+    // Static Properties
+    // =========================================================================
+
+    /**
+     * @var CraftCodemirror
+     */
     public static $plugin;
 
-    public $schemaVersion = '1.0.0';
+    // Public Properties
+    // =========================================================================
 
+    /**
+     * @var string
+     */
+    public $schemaVersion = '1.0.4';
+
+    /**
+     * @var bool
+     */
+    public $hasCpSettings = false;
+
+    /**
+     * @var bool
+     */
+    public $hasCpSection = false;
+
+    // Public Methods
+    // =========================================================================
+
+    /**
+     * @inheritdoc
+     */
     public function init()
     {
         parent::init();
         self::$plugin = $this;
-
-        Event::on(
-            Fields::class,
-            Fields::EVENT_REGISTER_FIELD_TYPES,
-            function (RegisterComponentTypesEvent $event) {
-                $event->types[] = CodemirrorField::class;
-            }
-        );
 
         Event::on(
             Plugins::class,
@@ -50,5 +83,8 @@ class CraftCodemirror extends Plugin
             __METHOD__
         );
     }
+
+    // Protected Methods
+    // =========================================================================
 
 }

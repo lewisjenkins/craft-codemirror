@@ -1,4 +1,4 @@
-# Craft CodeMirror Changelog
+# Craft Codemirror Changelog
 
 All notable changes to this project will be documented in this file.
 
@@ -6,4 +6,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## 1.0.4 - 2020-07-04
 ### Added
-- Initial setup
+- Initial release
